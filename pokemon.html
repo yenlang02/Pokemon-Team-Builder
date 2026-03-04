@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokemon Team Builder</title>
+        <link rel="stylesheet" href="w6-pokemon.css">
+    </head>
+        
+    <body>
+        <div id="main-card">
+            <div id="search-area">
+                <label for="pokemon-name-input">Name or ID</label>
+                <input type="text" id="pokemon-name-input">
+                <button id="find-btn">Find</button>
+            </div>
+
+            <img id="pokemon-image" src="" alt="">
+
+            <audio id="pokemon-audio" controls></audio>
+
+            <div id="moves-area">
+                <select id="move1"></select>
+                <select id="move2"></select>
+                <select id="move3"></select>
+                <select id="move4"></select>
+            </div>
+
+            <div id="add-btn-area">
+                <button id="add-btn">Add to Team</button>
+            </div>
+
+            <table id="team-list"></table>
+        </div>
+
+        <script src="w6-pokemon.js"></script>
+        
+    </body>
+</html>
